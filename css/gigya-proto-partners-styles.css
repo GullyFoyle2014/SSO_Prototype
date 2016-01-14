@@ -4,11 +4,10 @@
 ul,
 ol,
 li {
-    list-style: none;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
-
 
 /* global styles */
 .bottomEdgeShadow {
@@ -20,15 +19,14 @@ li {
 .gigya-error-msg {
     display: none;
     margin-top: 2px;
-    color: #F33;
+    padding: 10px 10px 10px;
+    line-height: 20px;
     background: #FFEFEF;
     text-align: center;
     font-size: 11px;
-    line-height: 13px;
     font-weight: bold;
-    padding: 10px 10px 10px;
-    line-height: 20px;
     font-family: arial,helvetica,sans-serif;
+    color: #F33;
 }
 
 /* signIn Module */
@@ -37,13 +35,13 @@ li {
     margin: 0 auto;
 }
 #signIn h2 {
-    font-family: helveticq,arial,sans-serif;
-    padding-bottom: 5px;
+    font-family: helvetica,arial,sans-serif;
     margin-bottom: 15px;
+    padding-bottom: 5px;
+    line-height: 1em;
     border-bottom: 2px solid #000;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1em;
     text-transform: none;
 }
 #signIn .bottom-section h2 {
@@ -52,19 +50,19 @@ li {
 #signIn .more-options {
     position: absolute;
     bottom: 0;
-    font-size: 12px;
     min-height:15px;
     width: 100%;
     margin: 0;
     padding: 3px 0;
+    font-size: 12px;
     text-transform: uppercase;
     text-align: center;
 }
 #signIn .more-options a {
     font-size: 12px;
-    text-decoration: none;
     color: #222;
     font-family: helvetica,arial,sans-serif;
+    text-decoration: none;
 }
 #signIn .gigya-providers-row {
     clear: both;
@@ -86,11 +84,6 @@ li {
     margin-right: 5px;
     margin-bottom: 5px;
 }
-/*NOTE:
- *COMMENTED OUT TO SHOW FULL LIST OF 12 PROVIDERS, ONCE IT IS DECIDED/FINAL, MAKE THIS A HARD LIMIT/MAX-NUMBER TO DISPLAY.
- *#signIn .gigya-provider:nth-child(n+9) {
-    display: none;
-}*/
 #signIn .gigya-provider a {
     display: table;
     height: 40px;
@@ -98,10 +91,10 @@ li {
 }
 #signIn .gigya-provider a div {
     display: table-cell;
-    vertical-align: middle;
     width: 116px;
     height: 40px;
     margin: 0 auto;
+    vertical-align: middle;
 }
 #signIn .gigya-provider.single-provider a div {
     width: 100%;
@@ -115,11 +108,6 @@ li {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .5px;
-}
-
-#signIn .gigya-provider a span,
-#signIn .gigya-show-password {
-
 }
 #signIn .gigya-provider a .provider-icon {
     display: inline-block;
@@ -135,10 +123,10 @@ li {
     background-color: #3C5A99;
 }
 #signIn .gigya-provider.facebook .provider-icon {
-    background-image: url('../img/icon-facebook.png');
     width: 11px;
     height: 20px;
     margin-left: 13px;
+    background-image: url('../img/icon-facebook.png');
 }
 #signIn .gigya-provider.facebook .provider-name {
     margin-left: 20px;
@@ -147,28 +135,28 @@ li {
     background-color: #DF4A30;
 }
 #signIn .gigya-provider.google .provider-icon {
-    background-image: url('../img/icon-googleplus.png');
     width: 20px;
     height: 20px;
     margin-left: 13px;
+    background-image: url('../img/icon-googleplus.png');
 }
 #signIn .gigya-provider.twitter {
     background-color: #27B2E7;
 }
 #signIn .gigya-provider.twitter .provider-icon {
-    background-image: url('../img/icon-twitter.png');
     width: 23px;
     height: 18px;
     margin-left: 10px;
+    background-image: url('../img/icon-twitter.png');
 }
 #signIn .gigya-provider.instagram {
     background-color: #4090db;
 }
 #signIn .gigya-provider.instagram .provider-icon {
-    background-image: url('../img/icon-instagram.png');
     width: 18px;
     height: 18px;
     margin-left: 12px;
+    background-image: url('../img/icon-instagram.png');
 }
 #signIn .gigya-provider.instagram .provider-name {
     margin-left: 15px;
@@ -177,10 +165,10 @@ li {
     background-color: #772B8F;
 }
 #signIn .gigya-provider.yahoo .provider-icon {
-    background-image: url('../img/icon-yahoo.png');
     width: 25px;
     height: 15px;
     margin-left: 10px;
+    background-image: url('../img/icon-yahoo.png');
 }
 #signIn .gigya-provider.yahoo .provider-name {
     margin-left: 10px;
@@ -189,10 +177,10 @@ li {
     background-color: #0078B5;
 }
 #signIn .gigya-provider.linkedin .provider-icon {
-    background-image: url('../img/icon-linkedin.png');
     width: 18px;
     height: 17px;
     margin-left: 13px;
+    background-image: url('../img/icon-linkedin.png');
 }
 #signIn .gigya-provider.linkedin .provider-name {
     margin-left: 14px;
@@ -201,45 +189,45 @@ li {
     background-color: #1F8CBD;
 }
 #signIn .gigya-provider.wordpress .provider-icon {
-    background-image: url('../img/icon-wordpress.png');
     width: 22px;
     height: 21px;
     margin-left: 11px;
+    background-image: url('../img/icon-wordpress.png');
 }
 #signIn .gigya-provider.skype {
     background-color: #2aace2;
 }
 #signIn .gigya-provider.skype .provider-icon {
-    background-image: url('../img/icon-skype.png');
     width: 20px;
     height: 20px;
     margin-left: 12px;
+    background-image: url('../img/icon-skype.png');
 }
 #signIn .gigya-provider.microsoftaccount {
     background-color: #52b965;
 }
 #signIn .gigya-provider.microsoftaccount .provider-icon {
-    background-image: url('../img/icon-microsoftaccount.png');
     width: 23px;
     height: 20px;
     margin-left: 10px;
+    background-image: url('../img/icon-microsoftaccount.png');
 }
 #signIn .gigya-provider.youtube {
     background-color: #e52e28;
 }
 #signIn .gigya-provider.youtube .provider-icon {
-    background-image: url('../img/icon-youtube.png');
     width: 26px;
     height: 18px;
+    background-image: url('../img/icon-youtube.png');
 }
 #signIn .gigya-provider.foursquare {
     background-color: #EF5679;
 }
 #signIn .gigya-provider.foursquare .provider-icon {
-    background-image: url('../img/icon-foursquare.png');
     width: 15px;
     height: 20px;
     margin-left: 13px;
+    background-image: url('../img/icon-foursquare.png');
 }
 #signIn .gigya-provider.foursquare .provider-name {
     margin-left: 15px;
@@ -248,10 +236,10 @@ li {
     background-color: #ff9434;
 }
 #signIn .gigya-provider.blogger .provider-icon {
-    background-image: url('../img/icon-blogger.png');
     width: 21px;
     height: 20px;
     margin-left: 11px;
+    background-image: url('../img/icon-blogger.png');
 }
 
 /*single provider 1-up*/
@@ -274,9 +262,9 @@ li {
 
 #signIn .gigya-signin.bottom-section,
 #signIn .gigya-signin.top-section {
-  clear: both;
-  margin-bottom: 5px;
-  overflow: hidden;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 5px;
 }
 #signIn .gigya-signin.top-section {
     min-height: 145px;
@@ -304,11 +292,11 @@ li {
     width: 99%;
     background-color: #fff;
     border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
     color: #666;
     font-family: 'Helvetica Neue','HelveticaNeue',helvetica,arial,sans-serif;
     font-size: 13px;
-    padding: 0;
-    margin: 0;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     -ms-box-shadow: none;
@@ -363,7 +351,6 @@ li {
 #signIn .gigya-layout-cell.submit {
     text-align: center;
 }
-
 #signIn .gigya-show-password{
     float: left;
 }
